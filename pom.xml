@@ -524,7 +524,7 @@
                 <dubbo.zookeeper.address>zookeeper://127.0.0.1:2181</dubbo.zookeeper.address>
                 <dubbo.port>20880</dubbo.port>
                 <job.zookeeper.address>127.0.0.1:2181</job.zookeeper.address>
-                <disconf.server.host>192.168.19.129:8081/</disconf.server.host>
+                <disconf.server.host>192.168.136.128:8081/</disconf.server.host>
                 <disconf.env>rd</disconf.env>
                 <redis.host>127.0.0.1</redis.host>
                 <redis.password>xiaoyuer</redis.password>
