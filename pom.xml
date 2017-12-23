@@ -547,7 +547,9 @@
             <id>test</id>
             <properties>
                 <env>TEST</env>
-
+                <disconf.env>qa</disconf.env>
+                <log.root>/usr/local/logs</log.root>
+                <log.level>INFO</log.level>
             </properties>
         </profile>
         <!-- 生产环境配置 -->
@@ -555,7 +557,9 @@
             <id>pro</id>
             <properties>
                 <env>PRO</env>
-
+                <disconf.env>online</disconf.env>
+                <log.root>/usr/local/logs</log.root>
+                <log.level>INFO</log.level>
             </properties>
         </profile>
     </profiles>
