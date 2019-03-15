@@ -49,7 +49,7 @@
         <lang3.version>3.4</lang3.version>
         <jedis.version>2.9.0</jedis.version>
         <aspectj.version>1.8.9</aspectj.version>
-        <dubbo.version>2.5.3</dubbo.version>
+        <dubbo.version>2.6.1</dubbo.version>
         <zookeeper.version>3.4.6</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <disconf.version>2.6.30</disconf.version>
