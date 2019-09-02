@@ -47,6 +47,7 @@
         <jstl.version>1.2</jstl.version>
         <servlet.version>3.1.0</servlet.version>
         <lang3.version>3.4</lang3.version>
+        <apache.curator.version>2.11.1</apache.curator.version>
         <jedis.version>2.9.0</jedis.version>
         <aspectj.version>1.8.9</aspectj.version>
         <dubbo.version>2.7.4.1-SNAPSHOT</dubbo.version>
@@ -229,6 +230,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${apache.curator.version}</version>
             </dependency>
             <!-- REDIS配置 -->
             <dependency>
