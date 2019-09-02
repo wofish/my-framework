@@ -163,7 +163,7 @@
         </dependency>
         <!-- DUBBO配置 -->
         <dependency>
-            <groupId>com.alibaba</groupId>
+            <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
             <exclusions>
                 <exclusion>
