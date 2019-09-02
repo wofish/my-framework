@@ -19,12 +19,12 @@
         <repository>
             <id>nexus</id>
             <name>Releases</name>
-            <url>http://192.168.0.5:8888/nexus/content/repositories/releases/</url>
+            <url>http://127.0.0.1:8888/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Snapshots</name>
-            <url>http://192.168.0.5:8888/nexus/content/repositories/snapshots/</url>
+            <url>http://127.0.0.1:8888/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -49,7 +49,7 @@
         <lang3.version>3.4</lang3.version>
         <jedis.version>2.9.0</jedis.version>
         <aspectj.version>1.8.9</aspectj.version>
-        <dubbo.version>2.6.1</dubbo.version>
+        <dubbo.version>2.7.4.1-SNAPSHOT</dubbo.version>
         <zookeeper.version>3.4.6</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <disconf.version>2.6.30</disconf.version>
@@ -249,7 +249,7 @@
             </dependency>
             <!-- DUBBO配置 -->
             <dependency>
-                <groupId>com.alibaba</groupId>
+                <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo</artifactId>
                 <version>${dubbo.version}</version>
                 <exclusions>
