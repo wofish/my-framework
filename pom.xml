@@ -50,7 +50,8 @@
         <apache.curator.version>2.11.1</apache.curator.version>
         <jedis.version>2.9.0</jedis.version>
         <aspectj.version>1.8.9</aspectj.version>
-        <dubbo.version>2.7.4.1-SNAPSHOT</dubbo.version>
+        <apache.dubbo.version>2.7.4.1-SNAPSHOT</apache.dubbo.version>
+        <alibaba.dubbo.version>2.6.1</alibaba.dubbo.version>
         <zookeeper.version>3.4.6</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <disconf.version>2.6.30</disconf.version>
@@ -257,7 +258,18 @@
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo</artifactId>
-                <version>${dubbo.version}</version>
+                <version>${apache.dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${alibaba.dubbo.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.springframework</groupId>
