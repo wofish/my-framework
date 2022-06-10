@@ -51,7 +51,7 @@
         <jedis.version>2.9.0</jedis.version>
         <aspectj.version>1.8.9</aspectj.version>
         <apache.dubbo.version>2.7.4.1-SNAPSHOT</apache.dubbo.version>
-        <alibaba.dubbo.version>2.6.1</alibaba.dubbo.version>
+        <alibaba.dubbo.version>2.6.12</alibaba.dubbo.version>
         <zookeeper.version>3.4.6</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <disconf.version>2.6.30</disconf.version>
